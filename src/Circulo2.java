@@ -38,7 +38,7 @@ public class Circulo2 extends Forma
     }
     public void mostrarCirculo()
     {
-        System.out.println("El color del circulo es: " + getColor());
+        super.mostrarForma();
         System.out.println("Radio del circulo: " + this.radio);
         System.out.println("Area del circulo: " + this.calcularArea());
         System.out.println("Perimetro del circulo: " + this.calcularPerimetro());

@@ -45,11 +45,11 @@ public class Rectangulo extends Forma
     public double calcularPerimetro()
     {
         double perimetro = 2 * (this.base + this.altura);
-        return 0;
+        return perimetro;
     }
     public void mostrarRectangulo ()
     {
-        System.out.println("Color: " + getColor());
+        super.mostrarForma();
         System.out.println("Base: " + this.base);
         System.out.println("Altura: " + this.altura);
         System.out.println("Area: " + this.calcularArea());

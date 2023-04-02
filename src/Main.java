@@ -74,5 +74,16 @@ public class Main
         System.out.println("Constructor lleno: ");
         Circulo2 circulito1 = new Circulo2(3.3,"Rojo");
         circulito1.mostrarCirculo();
+
+        System.out.println("Constructor vacio: ");
+        Rectangulo rectangulito = new Rectangulo();
+        rectangulito.setColor("Azul");
+        rectangulito.setBase(1.7);
+        rectangulito.setAltura(2.3);
+        rectangulito.mostrarRectangulo();
+        System.out.println("Constructor lleno: ");
+        Rectangulo rectangulito2 = new Rectangulo("Verde",2.3,2.5);
+        rectangulito2.mostrarRectangulo();
+
     }
 }
