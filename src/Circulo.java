@@ -1,5 +1,5 @@
 public class Circulo {
-    private double radio = 3.0;
+    private double radio = 4;
     private String color = "rojo";
 
     public Circulo()

@@ -27,7 +27,7 @@ public class Main
     }
     public static void ejercicio1()
     {
-        /*
+
         System.out.println("CON CONSTRUCTOR VACIO. ");
         Cilindro cilindro = new Cilindro();
         System.out.println("CARACTERISTICAS CILINDRO. ");
@@ -43,7 +43,7 @@ public class Main
         System.out.println("ALTURA: " + cilindro1.getAltura());
         System.out.println("AREA: " + cilindro1.calcularArea());
         System.out.println("VOLUMEN: " + cilindro1.volumen());
-         */
+
         Cilindro cilindrito = new Cilindro(1.6,"Verde",1.9);
         double nuevaArea = cilindrito.calcularArea();
         double volumen = cilindrito.volumen();

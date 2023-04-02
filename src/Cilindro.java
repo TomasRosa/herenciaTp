@@ -1,6 +1,6 @@
 public class Cilindro extends Circulo
 {
-    private double altura = 3.0;
+    private double altura = 4;
 
     public Cilindro()
     {
