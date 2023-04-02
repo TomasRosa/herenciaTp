@@ -7,8 +7,8 @@ public class Circulo {
 
     }
 
-    public Circulo(double radio, String rojo) {
-        this.color = rojo;
+    public Circulo(double radio, String color) {
+        this.color = color;
         this.radio = radio;
     }
 

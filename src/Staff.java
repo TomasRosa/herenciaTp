@@ -39,4 +39,11 @@ public class Staff extends Persona
         double salarioAnual = this.salario * 12;
         return salarioAnual;
     }
+
+    @Override
+    public void mostrarPersona() {
+        super.mostrarPersona();
+        System.out.println("Salario: " + this.salario);
+        System.out.println("Turno: " + this.turno);
+    }
 }

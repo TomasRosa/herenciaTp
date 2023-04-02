@@ -45,4 +45,13 @@ public class Estudiante extends Persona
     {
         this.carrera = carrera;
     }
+
+    @Override
+    public void mostrarPersona()
+    {
+        super.mostrarPersona();
+        System.out.println("Año de ingreso: " + this.añoIngreso);
+        System.out.println("Cuota mensual: " + this.cuotaMensual);
+        System.out.println("Carrera: " + this.carrera);
+    }
 }

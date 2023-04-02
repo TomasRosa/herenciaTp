@@ -14,6 +14,14 @@ public class Main
             {
                 ejercicio1();
             }
+            case 2:
+            {
+                ejercicio2();
+            }
+            case 3:
+            {
+                ejercicio3();
+            }
         }
 
     }
@@ -47,6 +55,24 @@ public class Main
     }
     public static void ejercicio2()
     {
+        Persona personita = new Persona();
 
+        personita.cargarArregloEstudiantesStaff();
+        System.out.println("MOSTRAR:");
+        personita.recorrerArregloMostrar();
+
+        double ingresos = personita.recorrerArregloCuotas();
+        System.out.println("Los ingresos de las cuotas son de: " + ingresos);
+    }
+    public static void ejercicio3()
+    {
+        System.out.println("Constructor vacio: ");
+        Circulo2 circulito = new Circulo2();
+        circulito.setColor("Verde");
+        circulito.setRadio(3.2);
+        circulito.mostrarCirculo();
+        System.out.println("Constructor lleno: ");
+        Circulo2 circulito1 = new Circulo2(3.3,"Rojo");
+        circulito1.mostrarCirculo();
     }
 }
