@@ -109,7 +109,7 @@ public class Persona
             this.arregloEstudiantesStaff[this.validosArreglo] = nuevo;
             this.validosArreglo++;
         }
-        System.out.println("CARGAR 4 MIEMBROS DE STAFF.");
+        System.out.println("CARGAR 2 MIEMBROS DE STAFF.");
         while(j < 2)
         {
             System.out.println("Ingrese el DNI. ");

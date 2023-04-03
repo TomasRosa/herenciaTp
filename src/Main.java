@@ -66,6 +66,7 @@ public class Main
     }
     public static void ejercicio3()
     {
+        System.out.println("******circulo******");
         System.out.println("Constructor vacio: ");
         Circulo2 circulito = new Circulo2();
         circulito.setColor("Verde");
@@ -75,6 +76,7 @@ public class Main
         Circulo2 circulito1 = new Circulo2(3.3,"Rojo");
         circulito1.mostrarCirculo();
 
+        System.out.println("******rectangulo******");
         System.out.println("Constructor vacio: ");
         Rectangulo rectangulito = new Rectangulo();
         rectangulito.setColor("Azul");
@@ -84,6 +86,19 @@ public class Main
         System.out.println("Constructor lleno: ");
         Rectangulo rectangulito2 = new Rectangulo("Verde",2.3,2.5);
         rectangulito2.mostrarRectangulo();
+
+        System.out.println("******cuadrado******");
+        System.out.println("Constructor vacio: ");
+        Cuadrado cuadradito = new Cuadrado();
+        cuadradito.setAltura(3);
+        cuadradito.setBase(3);
+        cuadradito.setColor("Verde");
+        cuadradito.mostrarForma();
+        System.out.println("Constructor lleno: ");
+        Cuadrado cuadradito2 = new Cuadrado("Verde",5);
+        cuadradito2.mostrarForma();
+
+
 
     }
 }
